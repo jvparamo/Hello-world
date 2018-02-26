@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	
+}
+body{
+	border: 150px solid white;
+	border-top: 0;
+	margin:0;
+	font-family: timenewsroman;
+}
+#shield{
+	width: 150px;
+	height: 100px;
+}
+header{
+	text-align: center;
+	margin-top: 0px;
+}
+
+.table1{
+	border: 1px solid black;
+	border-right: 3px outset black;
+	border-bottom:  3px outset black;
+	width: 200px;
+	height: 40px;
+	padding: 3px;
+	margin-left: 50px;
+	border-radius: 5px;
+
+}
+.column{
+	border-right: 1px solid black;
+	border-collapse: collapse;
+	margin-left: 50px;
+}
+#list{
+	display: inline-flex;
+	width: 100%;
+}
+#center{
+	width: 450px;
+	margin: 0;
+	margin-left: 30px;
+	text-align: center;
+}
+#right{
+	width: 200px;
+	margin:0;
+}
+.table2{
+	border: 1px solid black ;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 98%;
+	border-radius: 5px;
+	font-size: 10pt;
+	text-align: center;
+
+}
+.border{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+input[type=text]{
+	width: 20px;
+	height: 20px;
+}
+input[class=info]{
+	width: 100%;
+	height: 30px;
+	border: 0;
+}
+input[class=info1]{
+	width: 95%;
+	height: 30px;
+	border: 0;
+	border-bottom: 1px solid black;
+}
+.Date{
+	width: 505px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#Sex{
+	width: 250px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+td[id=Paternal]{
+	width: 460px;
+}
+#final{
+	height: 80px;
+}
+.Code {
+	writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: absolute;
+    font-size: 20px;
+    top: 320px;
+    right: 80px;
+}
+.image {
+	width: 40px;
+	position: absolute;
+	right: 110px;
+	top: 300px;
+}
+
+.true{
+	writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100%;
+    top: 500px;
+    right: 100px;
+}
